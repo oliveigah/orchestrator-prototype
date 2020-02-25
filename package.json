@@ -1,0 +1,24 @@
+{
+  "name": "orchestrator-prototype",
+  "version": "1.0.0",
+  "description": "API orchestrator architectural design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliveiragahenrique/orchestrator-prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliveiragahenrique/orchestrator-prototype/issues"
+  },
+  "homepage": "https://github.com/oliveiragahenrique/orchestrator-prototype#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
