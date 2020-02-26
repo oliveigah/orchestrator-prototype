@@ -1,13 +1,12 @@
 const express = require('express');
 
 const router = express.Router();
+const testService = require('../services/test-service');
 
 router.get('/', async (req, res) => {
     try {
-        const result = {
-            success: true,
-            hello: 'World',
-        };
+        const result = await testService.execute();
+        result.success = true;
         res.status(200).json(result);
     } catch (error) {
         res.status(500).json({
