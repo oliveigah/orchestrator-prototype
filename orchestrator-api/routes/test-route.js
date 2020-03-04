@@ -7,7 +7,6 @@ const testService = require('../services/test-service');
 router.get('/', async (req, res) => {
     try {
         const result = await testService.execute();
-        console.log(result);
         result.success = true;
         res.status(200).json(result);
     } catch (error) {

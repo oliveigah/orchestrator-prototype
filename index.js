@@ -17,7 +17,10 @@ if (config.ENVIRONMENT === 'DEVELOPMENT') {
             cluster.fork();
         }
     } else {
-        runExpressServer();
+        runExpressServer.orchestratorApp();
+        runExpressServer.service1App();
+        runExpressServer.service2App();
+        runExpressServer.service3App();
     }
     cluster.on('exit', (worker) => {
         console.log(`Worker ${worker.id} died'`);
