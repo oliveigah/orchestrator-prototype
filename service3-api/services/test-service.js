@@ -1,9 +1,9 @@
 const delay = require('../../utils/delay');
 
 async function testService() {
-    await delay(1000);
+    await delay(500);
     const result = {
-        hello: 'World',
+        data: 2,
     };
     return result;
 }
