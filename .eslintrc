@@ -2,8 +2,9 @@
   "extends": "airbnb-base",
   "rules": {
     "linebreak-style": "off",
-    "indent": ["warn", 4],
+    "indent": ["warn", 2],
     "operator-linebreak": ["error", "after"],
-    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-console": "off"
   }
 }
