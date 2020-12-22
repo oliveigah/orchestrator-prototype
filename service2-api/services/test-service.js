@@ -1,13 +1,16 @@
 const delay = require('../../utils/delay');
 
 async function testService() {
-    await delay(250);
-    const result = {
-        data: 1,
-    };
-    return result;
+  await delay(1000);
+  const result = [
+    'email1',
+    'email3',
+    'email6',
+    'email8',
+  ];
+  return result;
 }
 
 module.exports = {
-    execute: testService,
+  execute: testService,
 };
